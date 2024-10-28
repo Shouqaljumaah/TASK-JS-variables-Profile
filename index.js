@@ -11,14 +11,16 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+const fullName = "shouq aljumah"; 
+const yearOfBirth = 1992;
+const hobby = "shopping";
+const funFact = "i'm alawys win";
+const image = "https://images.unsplash.com/photo-1441372069168-3194f577beeb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D";
 
 
 /**
  * Part 2: String Interpolation
- * Create the following new variables that interpolate
+ * Create the following new variables that interpolates
  * the variables defined above into strings.
  *
  * 1. fullNameString      -> assign it to: My name is {fullName}
@@ -29,9 +31,12 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `i am ${2024 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hoppy}`;
+
+
+
 
 
 
